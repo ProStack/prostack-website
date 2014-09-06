@@ -1,0 +1,71 @@
+<!-- begin:footer -->
+<div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 col-sm-12 col-xs-12">
+        <div class="footer-widget-logo">
+          <h2>ProStack</h2>
+          <small>North County's professional stack developer meetup!</small>
+        </div>
+      </div>
+      <!-- break -->
+      <div class="col-md-2 col-sm-6 col-xs-12">
+        <div class="footer-widget">
+          <div class="widget-header">
+            <h3>Widget Title</h3>
+          </div>
+
+          <ul class="list-unstyled">
+            <li><a href="#">Lorem dolor voluvat</a></li>
+            <li><a href="#">Consectetur adis</a></li>
+            <li><a href="#">Elit lorem dolor</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- break -->
+      <div class="col-md-2 col-sm-6 col-xs-12">
+        <div class="footer-widget">
+          <div class="widget-header">
+            <h3>Widget Title</h3>
+          </div>
+
+          <ul class="list-unstyled">
+            <li><a href="#">Lorem ipsum</a></li>
+            <li><a href="#">Dolor consectetur</a></li>
+            <li><a href="#">Adisplicing elit</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- break -->
+      <div class="col-md-2 col-sm-6 col-xs-12">
+        <div class="footer-widget">
+          <div class="widget-header">
+            <h3>Widget Title</h3>
+          </div>
+
+          <ul class="list-unstyled">
+            <li><a href="#">Consectetur adis</a></li>
+            <li><a href="#">Elit lorem dolor</a></li>
+            <li><a href="#">Lorem ipsum</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- break -->
+      <div class="col-md-2 col-sm-6 col-xs-12">
+        <div class="footer-widget">
+          <div class="widget-header">
+            <h3>Widget Title</h3>
+          </div>
+
+          <ul class="list-unstyled">
+            <li><a href="#">Lorem ipsum</a></li>
+            <li><a href="#">Dolor consectetur</a></li>
+            <li><a href="#">Adisplicing elit</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- break -->
+    </div>
+  </div>
+</div>
+<!-- end:footer -->

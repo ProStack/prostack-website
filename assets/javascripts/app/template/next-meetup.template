@@ -1,0 +1,73 @@
+<!-- begin:about -->
+<div id="about">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="page-title">
+					<h2 class="text-xbold font-kaushan text-black">
+						Come to our first meetup - ProStack 0.1
+						<small>Tuesday, October 21st @ 7-10pm, 
+							<a href="http://boozebrothersbrewery.com/">Booz Bros Brewery</a> - Vista, CA</small>
+					</h2>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-3 col-sm-3">
+				<div class="text-center pad-top-16px">
+					<img
+						class="avatar"
+						src="/public/images/rclayton.jpg" class="img-responsive">
+					<div class="team-desc">
+						<h4>Richard Clayton <small>Fullstack Fanboy</small></h4>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-9 col-sm-9">
+				<h3 class="text-xbold text-red">Distributed Service Discovery and Configuration with Consul.</h3>
+				<p>Lorem ipsum dolor sit amet, doming dicunt disputationi vis cu, ex illud alterum his. In rebum inani argumentum ius, eam id laoreet legendos. Affert fastidii ea eos. Nulla dolor eos te, te est ridens quaeque partiendo, eu iriure argumentum mel. Est at populo quaerendum complectitur, iusto sanctus comprehensam cum ad.
+
+Quo te elitr causae. Sed assum similique id, ex mel alia iisque argumentum. Ludus noluisse referrentur no vis. Eros reprimique eu vel, labore partiendo has at. Per mentitum delectus forensibus ut. Docendi evertitur adipiscing nec eu, ut eos erat animal, eam error tempor inimicus ut. Ut saperet perpetua mea.</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-3 col-sm-3">
+				<div class="text-center pad-top-16px">
+					<img
+						class="avatar"
+						src="/public/images/bgreer.jpg" class="img-responsive">
+					<div class="team-desc">
+						<h4>Ben Greer <small>Web Engineer</small></h4>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-9 col-sm-9">
+				<h3 class="text-xbold text-red">Introduction to Elixir for Web Apps (a Rails vs Phoenix showdown).</h3>
+				<p>Vim eu augue periculis. In quo tibique eleifend iracundia. Id melius comprehensam mediocritatem has. Cum alterum ullamcorper ad. Sit at tale soleat deleniti, et sit affert cotidieque, graece efficiantur no has. An autem eirmod latine vim.
+
+In per vide inermis senserit, oportere postulant vix ad. Sit ne sint liber, mollis principes eos ea. Eripuit mnesarchum eu qui, ornatus impedit tacimates id nam. Vis luptatum instructior cu, an mea saepe quodsi, elitr inermis vulputate eu nec.</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-3 col-sm-3">
+				<div class="text-center pad-top-16px">
+					<img
+						class="avatar"
+						src="/public/images/pgriffin.jpg" class="img-responsive">
+					<div class="team-desc">
+						<h4>Peter Griffin <small>"Microsofty"</small></h4>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-9 col-sm-9">
+				<h3 class="text-xbold text-red">VB will never die and I'll punch the next person who says it will.</h3>
+				<p>Mazim persequeris est an, quo alia vituperata interpretaris et, at clita partem intellegebat vel. Per latine tibique te, sit quas dolorem eu, iudico debitis mediocrem an pri. Mel dico adversarium ea, cum eu probatus tacimates. Id pro saepe patrioque.</p>
+			</div>
+		</div>
+
+		<!-- break -->
+	</div>
+</div>
+<map></map>
+<!-- end:about -->

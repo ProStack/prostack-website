@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="slider-caption">
+        <h2 class="animated fadeInUpBig">Welcome</h2>
+        <div class="animated fadeInDownBig">
+          <p>To <strong>Creative world</strong>! Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do <strong>eiusmod tempor</strong>.</p>
+          <div class="marg30-top-btm"><a href="#" class="btn btn-lucky btn-xl">Take a tour</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

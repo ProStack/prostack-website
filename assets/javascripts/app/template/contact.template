@@ -1,0 +1,56 @@
+<!-- begin:contact -->
+<div id="contact">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="page-title">
+          <h2>Contact Us <small>If you have any questions, please leave us a message.</small></h2>
+        </div>
+			</div>
+		</div>
+    <!-- break -->
+    <div class="row">
+      <div class="col-md-5 col-sm-5 marg30-btm">
+        <h4 class="text-uppercase text-xbold">Aditional Information</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi.</p>
+        <br>
+        <address>
+          <strong>ProStack</strong><br><br>
+          adsfadsfadsasdf<br>
+          http://github.com/ProStack<br>
+          http://www.prostack.com <br>
+        </address>
+      </div>
+
+      <div class="col-md-7 col-sm-7">
+        <form role="form" class="contact-form">
+          <div class="form-group">
+            <label for="name" class="sr-only">Name</label>
+            <input type="text" class="form-control input-lg" id="author" placeholder="Name: " required>
+            <span class="form-focus-icon focus-icon-name"></span>
+          </div>
+          <div class="form-group">
+            <label for="email" class="sr-only">Email address</label>
+            <input type="email" class="form-control input-lg" id="email" placeholder="Email: " required>
+            <span class="form-focus-icon focus-icon-mail"></span>
+          </div>
+          <div class="form-group">
+            <label for="phone" class="sr-only">Phone</label>
+            <input type="text" class="form-control input-lg" id="phone" placeholder="Phone: " required>
+            <span class="form-focus-icon focus-icon-phone"></span>
+          </div>
+          <div class="form-group">
+            <label for="message" class="sr-only">Message</label>
+            <textarea class="form-control input-lg" id="message" placeholder="Message: " rows="5" required></textarea>
+            <span class="form-focus-icon focus-icon-message"></span>
+          </div>
+          <button type="submit" class="btn btn-lucky btn-lg"><i class="fa fa-envelope-o"></i> Send Message</button>
+        </form>
+      </div>
+    </div>
+	</div>
+</div>
+<div id="map"></div>
+<!-- end:contact -->

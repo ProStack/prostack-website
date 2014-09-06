@@ -1,0 +1,16 @@
+<!-- begin:promo -->
+<div class="promo-03" style="background-image: url('/public/images/san-marcos-lake.jpg');">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="promo-text">
+          <div class="page-title">
+            <h2 class="text-capitalize">Your Modern Promo Box Here <small>Say Hi For all of the world.</small></h2>
+          </div>
+          <h3>Let's Introduce Now!</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end:promo -->

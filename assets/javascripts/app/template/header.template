@@ -1,15 +1,15 @@
 <div id="header" class="carousel slide carousel-fade" data-ride="carousel">
     <carousel interval="5000" class="carousel-inner">
         <slide class="item"
-               style="background-image: url('/public/images/carlsbad-late-night.jpg');">
+               style="background-image: url('/images/carlsbad-late-night.jpg');">
             <ng-include src="'slide1.html'"></ng-include>
         </slide>
         <slide class="item"
-               style="background-image: url('/public/images/oceanside-pier.png');">
+               style="background-image: url('/images/oceanside-pier.png');">
             <ng-include src="'slide2.html'"></ng-include>
         </slide>
         <slide class="item"
-               style="background-image: url('/public/images/vista-downtown.jpg');">
+               style="background-image: url('/images/vista-downtown.jpg');">
             <ng-include src="'slide3.html'"></ng-include>
         </slide>
     </carousel>

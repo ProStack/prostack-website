@@ -18,7 +18,7 @@ exports.startServer = (config, callback) ->
   # Statically load public assets.
   server.route {
       method: 'GET'
-      path: '/public/{param*}'
+      path: '/{param*}'
       handler:
         directory:
           path: 'public'

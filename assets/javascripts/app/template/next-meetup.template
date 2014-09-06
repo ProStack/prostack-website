@@ -6,7 +6,7 @@
 				<div class="page-title">
 					<h2 class="text-xbold font-kaushan text-black">
 						Come to our first meetup - ProStack 0.1
-						<small>Tuesday, October 21st @ 7-10pm, 
+						<small>Tuesday, October 21st @ 7-10pm,
 							<a href="http://boozebrothersbrewery.com/">Booz Bros Brewery</a> - Vista, CA</small>
 					</h2>
 				</div>
@@ -18,7 +18,7 @@
 				<div class="text-center pad-top-16px">
 					<img
 						class="avatar"
-						src="/public/images/rclayton.jpg" class="img-responsive">
+						src="/images/rclayton.jpg" class="img-responsive">
 					<div class="team-desc">
 						<h4>Richard Clayton <small>Fullstack Fanboy</small></h4>
 					</div>
@@ -36,7 +36,7 @@ Quo te elitr causae. Sed assum similique id, ex mel alia iisque argumentum. Ludu
 				<div class="text-center pad-top-16px">
 					<img
 						class="avatar"
-						src="/public/images/bgreer.jpg" class="img-responsive">
+						src="/images/bgreer.jpg" class="img-responsive">
 					<div class="team-desc">
 						<h4>Ben Greer <small>Web Engineer</small></h4>
 					</div>
@@ -54,7 +54,7 @@ In per vide inermis senserit, oportere postulant vix ad. Sit ne sint liber, moll
 				<div class="text-center pad-top-16px">
 					<img
 						class="avatar"
-						src="/public/images/pgriffin.jpg" class="img-responsive">
+						src="/images/pgriffin.jpg" class="img-responsive">
 					<div class="team-desc">
 						<h4>Peter Griffin <small>"Microsofty"</small></h4>
 					</div>

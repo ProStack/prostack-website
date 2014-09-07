@@ -1693,3 +1693,23 @@ td {
 .pad-top-16px {
 	padding-top: 16px;
 }
+
+.sideline a{
+	color: rgb(160, 160, 160);
+	text-decoration: none;
+	-webkit-transition: all 0.2s ease-in-out;
+		-moz-transition: all 0.2s ease-in-out;
+		-ms-transition: all 0.2s ease-in-out;
+		-o-transition: all 0.2s ease-in-out;
+			transition: all 0.2s ease-in-out;
+}
+
+.sideline a:hover{
+	color: #282828;
+	text-decoration: none;
+	-webkit-transition: all 0.2s ease-in-out;
+		-moz-transition: all 0.2s ease-in-out;
+		-ms-transition: all 0.2s ease-in-out;
+		-o-transition: all 0.2s ease-in-out;
+			transition: all 0.2s ease-in-out;
+}

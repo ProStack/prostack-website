@@ -2,10 +2,10 @@
   <div class="row">
     <div class="col-md-12">
       <div class="slider-caption">
-        <h2 class="animated fadeInUpBig">Welcome</h2>
+        <h2 class="animated fadeInUpBig">Connect With Peers.</h2>
         <div class="animated fadeInDownBig">
-          <p>To <strong>Creative world</strong>! Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do <strong>eiusmod tempor</strong>.</p>
-          <div class="marg30-top-btm"><a href="#" class="btn btn-lucky btn-xl">Take a tour</a></div>
+          <p>Meet a diverse group of engineers interested in technology and practices.  Members choose the topics they want to see at each meetup.</p>
+          <div class="marg30-top-btm"><a href="#" class="btn btn-lucky btn-xl">View Members</a></div>
         </div>
       </div>
     </div>

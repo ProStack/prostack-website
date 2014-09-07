@@ -5,69 +5,144 @@
 			<div class="col-md-12">
 				<div class="page-title">
 					<h2 class="text-xbold font-kaushan text-black">
-						Come to our first meetup - ProStack 0.1
-						<small>Tuesday, October 21st @ 7-10pm,
-							<a href="http://boozebrothersbrewery.com/">Booz Bros Brewery</a> - Vista, CA</small>
+						First Meetup @ Booz Brothers Brewery
+						<small>Tuesday, October 21st @ 7-10pm - Vista, CA</small>
 					</h2>
 				</div>
 			</div>
 		</div>
 
 		<div class="row">
-			<div class="col-md-3 col-sm-3">
-				<div class="text-center pad-top-16px">
-					<img
-						class="avatar"
-						src="/images/rclayton.jpg" class="img-responsive">
-					<div class="team-desc">
-						<h4>Richard Clayton <small>Fullstack Fanboy</small></h4>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-9 col-sm-9">
-				<h3 class="text-xbold text-red">Distributed Service Discovery and Configuration with Consul.</h3>
-				<p>Lorem ipsum dolor sit amet, doming dicunt disputationi vis cu, ex illud alterum his. In rebum inani argumentum ius, eam id laoreet legendos. Affert fastidii ea eos. Nulla dolor eos te, te est ridens quaeque partiendo, eu iriure argumentum mel. Est at populo quaerendum complectitur, iusto sanctus comprehensam cum ad.
+			<div class="col-md-8 col-sm-8">
 
-Quo te elitr causae. Sed assum similique id, ex mel alia iisque argumentum. Ludus noluisse referrentur no vis. Eros reprimique eu vel, labore partiendo has at. Per mentitum delectus forensibus ut. Docendi evertitur adipiscing nec eu, ut eos erat animal, eam error tempor inimicus ut. Ut saperet perpetua mea.</p>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-3 col-sm-3">
-				<div class="text-center pad-top-16px">
-					<img
-						class="avatar"
-						src="/images/bgreer.jpg" class="img-responsive">
-					<div class="team-desc">
-						<h4>Ben Greer <small>Web Engineer</small></h4>
+				<div class="row">
+					<div class="col-md-3 col-sm-3">
+						<div class="text-center pad-top-16px">
+							<img
+								class="avatar"
+								src="/images/rclayton.jpg" class="img-responsive">
+							<div class="team-desc">
+								<h4>Richard Clayton <small>Fullstack Fanboy</small></h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-9 col-sm-9">
+						<h3 class="text-xbold text-red">Distributed Service Discovery and Configuration with Consul.</h3>
+						<p>Lorem ipsum dolor sit amet, doming dicunt disputationi vis cu, ex illud alterum his. In rebum inani argumentum ius, eam id laoreet legendos. Affert fastidii ea eos. Nulla dolor eos te, te est ridens quaeque partiendo, eu iriure argumentum mel. Est at populo quaerendum complectitur, iusto sanctus comprehensam cum ad.</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-3 col-sm-3">
+						<div class="text-center pad-top-16px">
+							<img
+								class="avatar"
+								src="/images/bgreer.jpg" class="img-responsive">
+							<div class="team-desc">
+								<h4>Ben Greer <small>Web Engineer</small></h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-9 col-sm-9">
+						<h3 class="text-xbold text-red">Introduction to Elixir for Web Apps (a Rails vs Phoenix showdown).</h3>
+						<p>Vim eu augue periculis. In quo tibique eleifend iracundia. Id melius comprehensam mediocritatem has. Cum alterum ullamcorper ad. Sit at tale soleat deleniti, et sit affert cotidieque, graece efficiantur no has. An autem eirmod latine vim.</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-3 col-sm-3">
+						<div class="text-center pad-top-16px">
+							<img
+								class="avatar"
+								src="/images/pgriffin.jpg" class="img-responsive">
+							<div class="team-desc">
+								<h4>Peter Griffin <small>"Microsofty"</small></h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-9 col-sm-9">
+						<h3 class="text-xbold text-red">VB will never die and I'll punch the next person who says it will.</h3>
+						<p>Mazim persequeris est an, quo alia vituperata interpretaris et, at clita partem intellegebat vel. Per latine tibique te, sit quas dolorem eu, iudico debitis mediocrem an pri. Mel dico adversarium ea, cum eu probatus tacimates. Id pro saepe patrioque.</p>
 					</div>
 				</div>
 			</div>
-			<div class="col-md-9 col-sm-9">
-				<h3 class="text-xbold text-red">Introduction to Elixir for Web Apps (a Rails vs Phoenix showdown).</h3>
-				<p>Vim eu augue periculis. In quo tibique eleifend iracundia. Id melius comprehensam mediocritatem has. Cum alterum ullamcorper ad. Sit at tale soleat deleniti, et sit affert cotidieque, graece efficiantur no has. An autem eirmod latine vim.
 
-In per vide inermis senserit, oportere postulant vix ad. Sit ne sint liber, mollis principes eos ea. Eripuit mnesarchum eu qui, ornatus impedit tacimates id nam. Vis luptatum instructior cu, an mea saepe quodsi, elitr inermis vulputate eu nec.</p>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-3 col-sm-3">
-				<div class="text-center pad-top-16px">
-					<img
-						class="avatar"
-						src="/images/pgriffin.jpg" class="img-responsive">
-					<div class="team-desc">
-						<h4>Peter Griffin <small>"Microsofty"</small></h4>
+			<div class="col-md-3 col-md-offset-1 col-sm-3 col-sm-offset-1 text-center">
+				<div class="row sideline">
+					  <ul class="list-inline" style="font-size: 2em">
+							<li><a href="#"><i class="fa fa-envelope"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+				</div>
+				<div class="row sideline">
+					<div class="col-md-12 col-sm-12">
+						<h3>
+							<a href="http://www.meetup.com/ProStack/events/204948042/" target="_blank"
+								class="font-kaushan text-xlight">RSVP on Meetup.com
+							</a>
+						</h3>
 					</div>
 				</div>
-			</div>
-			<div class="col-md-9 col-sm-9">
-				<h3 class="text-xbold text-red">VB will never die and I'll punch the next person who says it will.</h3>
-				<p>Mazim persequeris est an, quo alia vituperata interpretaris et, at clita partem intellegebat vel. Per latine tibique te, sit quas dolorem eu, iudico debitis mediocrem an pri. Mel dico adversarium ea, cum eu probatus tacimates. Id pro saepe patrioque.</p>
+				<hr />
+				<div class="row text-left" style="padding-left: 10px">
+					<h4 class="text-uppercase text-xbold">Schedule</h4>
+					<dl class="dl-horizontal" style="margin-left: -80px">
+					  <dt>7:00-7:20</dt>
+					  <dd>Grab a brew and socialize.</dd>
+						<dt>7:20-7:30</dt>
+						<dd>Opening Remarks.</dd>
+						<dt>7:30-7:45</dt>
+						<dd><span class="text-red text-xbold">First Talk.</span></dd>
+						<dt>7:45-8:00</dt>
+						<dd>Socialize, drink brew.</dd>
+						<dt>8:00-8:15</dt>
+						<dd><span class="text-red text-xbold">Second Talk.</span></dd>
+						<dt>8:15-8:25</dt>
+						<dd>Socialize some more. More brew.</dd>
+						<dt>8:25-8:45</dt>
+						<dd><span class="text-red text-xbold">Third Talk.</span></dd>
+						<dt>8:45-8:50</dt>
+						<dd>Potty Break.</dd>
+						<dt>8:50-9:00</dt>
+						<dd>Closing Remarks, Planning.</dd>
+						<dt>9:00+</dt>
+						<dd>Drink, socialize, corner the speakers.</dd>
+					</dl>
+				</div>
+				<div class="row text-left" style="padding-left: 10px">
+					<h4 class="text-uppercase text-xbold">Additional Information</h4>
+					<ul>
+						<li><a href="#">Directions to the Venue.</a></li>
+						<li><a href="#">Meetup Format/Schedule.</a></li>
+						<li>Bring a couple of bucks for brews!</li>
+					</ul>
+				</div>
 			</div>
 		</div>
+
 
 		<!-- break -->
 	</div>
 </div>
+
+<div class="promo-alt" style="background-image: url('images/bb-venue.jpg');">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="promo-text">
+					<div class="page-title">
+						<img src="images/bb-logo.png" />
+						<h3><em>Nothing like a nice custom brew to go with your tech!</em></h3>
+					</div>
+					<div class="marg30-top-btm">
+						<a href="https://goo.gl/maps/sUJ5L" target="_blank"
+						   class="btn btn-lucky btn-xl">2545 Progress St. Suite D, Vista, CA 92081</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
 <map></map>
 <!-- end:about -->

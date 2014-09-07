@@ -2,10 +2,13 @@
   <div class="row">
     <div class="col-md-12">
       <div class="slider-caption">
-        <h2 class="animated fadeInUpBig">I'm <span class="font-kaushan">Lucky</span></h2>
+        <h2 class="animated fadeInUpBig">Get Help.</h2>
         <div class="animated rollIn">
-          <p>Chocolate <strong>Drinking</strong> Creative <strong>Thinking</strong>!</p>
-          <div class="marg30-top-btm"><a href="#" class="btn btn-lucky-primary btn-xl">Take a tour</a></div>
+          <p>Connect with independent Fullstack Mentors and Consultants with a variety of backgrounds and interests.</p>
+          <div class="marg30-top-btm">
+            <a href="#" class="btn btn-lucky-primary btn-xl">Mentors</a>
+            <a href="#" class="btn btn-lucky-primary btn-xl">Consultants</a>
+          </div>
         </div>
       </div>
     </div>

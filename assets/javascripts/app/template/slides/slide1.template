@@ -2,11 +2,11 @@
   <div class="row">
     <div class="col-md-12">
       <div class="slider-caption">
-        <h2 class="animated fadeInLeftBig">Welcome!</h2>
+        <h2 class="animated fadeInLeftBig">Meet. Learn. Hack.</h2>
         <div class="animated fadeInDownBig">
-          <p>Phasellus quis <strong>lectus</strong> metus, at posuere neque. Sed pharetra nibh eget orci convallis <strong>at posuere</strong> leo convallis</p>
+          <p><span class="font-kaushan">ProStack</span> is a <a href="http://www.meetup.com/ProStack/" target="_blank">Meetup</a> of Fullstack Software Engineers in <strong>North County - San Diego</strong>.  We are committed to improving techinical awareness and practices of the local software community.</p>
           <div class="marg30-top-btm">
-            <a href="#" class="btn btn-lucky-secondary btn-xl">Take a tour</a>
+            <a href="#" class="btn btn-lucky btn-xl">Learn More</a>
           </div>
         </div>
       </div>

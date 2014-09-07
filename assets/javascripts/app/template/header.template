@@ -1,5 +1,5 @@
 <div id="header" class="carousel slide carousel-fade" data-ride="carousel">
-    <carousel interval="5000" class="carousel-inner">
+    <carousel class="carousel-inner">
         <slide class="item"
                style="background-image: url('/images/carlsbad-late-night.jpg');">
             <ng-include src="'slide1.html'"></ng-include>

@@ -29,38 +29,40 @@ app = angular.module 'prostack', [
 app.run [ '$templateCache', ($templateCache) ->
   templates = require 'templates'
   for name, template of templates
-    console.debug "Registering '#{name}' with $templateCache."
+    # If you're having trouble determining whether your template is loaded,
+    # uncomment this guy.
+    #console.debug "Registering '#{name}' with $templateCache."
     $templateCache.put "#{name}.html", template
 ]
 
 app.config [ '$stateProvider', '$urlRouterProvider',
   ($stateProvider, $urlRouterProvider) ->
 
-    # $urlRouterProvider.otherwise "/"
-    #
-    # $stateProvider
-    #   .state 'home', {
-    #     url: '/'
-    #     templateUrl: 'home.html'
-    #     controller: 'HomeCtrl'
-    #   }
-    #   .state 'view1', {
-    #     url: '/view1'
-    #     templateUrl: 'view1.html'
-    #     controller: 'View1Ctrl'
-    #     resolve:
-    #       message: (messageService) ->
-    #         return messageService.getMessage()
-    #   }
-    #   .state 'view2', {
-    #     url: '/view2'
-    #     templateUrl: 'view2.html'
-    #     controller: 'View2Ctrl'
-    #     resolve:
-    #       message: ($http) ->
-    #         $http.get('/message').then (response) ->
-    #           response.data.message
-    #   }
+    $urlRouterProvider.otherwise "/"
+
+    $stateProvider
+      .state 'home', {
+        url: '/'
+        templateUrl: 'pages-home.html'
+        controller: 'HomeCtrl'
+      }
+      # .state 'view1', {
+      #   url: '/view1'
+      #   templateUrl: 'view1.html'
+      #   controller: 'View1Ctrl'
+      #   resolve:
+      #     message: (messageService) ->
+      #       return messageService.getMessage()
+      # }
+      # .state 'view2', {
+      #   url: '/view2'
+      #   templateUrl: 'view2.html'
+      #   controller: 'View2Ctrl'
+      #   resolve:
+      #     message: ($http) ->
+      #       $http.get('/message').then (response) ->
+      #         response.data.message
+      # }
 ]
 
 #  Immutable storage for configuration.  Later implementations may use an
@@ -69,18 +71,16 @@ class ConfigService
 
   constructor: ->
     @config = require './config'
-  
+
   getItem: (item) => @config[item]
 
 
 app.factory 'configService', -> new ConfigService()
 
+# Home Controller
+app.controller "HomeCtrl", [ '$scope', ($scope) ->
 
-
-#
-# app.controller "View1Ctrl", [ '$scope', 'message', ($scope, message) ->
-#   $scope.message = message
-# ]
+]
 #
 # app.controller "View2Ctrl", [ '$scope', 'message', ($scope, message) ->
 #   $scope.message = message

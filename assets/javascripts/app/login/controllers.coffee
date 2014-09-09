@@ -4,11 +4,11 @@ LoginCtrl = ['$scope', '$modal', 'loginService', ($scope, $modal, loginService) 
 
   providers = ['twitter', 'google', 'facebook', 'github']
 
-  loginService.getCurrentUser (user) ->
-    $scope.user = user
+  loginService.getCurrentUser (profile) ->
+    $scope.profile = profile
 
-  $scope.$on 'loginStatusChanged', (e, user) ->
-    $scope.user = user
+  $scope.$on 'loginStatusChanged', (e, profile) ->
+    $scope.profile = profile
 
   $scope.showLoginOptions = (size) ->
     modalInstance = $modal.open(
@@ -33,8 +33,8 @@ LoginCtrl = ['$scope', '$modal', 'loginService', ($scope, $modal, loginService) 
       controller: 'SelectProfileActionsCtrl',
       size: size,
       resolve: {
-        user: ->
-          return $scope.user
+        profile: ->
+          return $scope.profile
       }
     )
     success = (action) ->
@@ -65,9 +65,9 @@ SelectAuthProviderCtrl = [ '$scope', '$modalInstance', 'providers', ($scope, $mo
 
 
 # Handles actions related to the user profile.
-SelectProfileActionsCtrl = [ '$scope', '$modalInstance', 'user', ($scope, $modalInstance, user) ->
+SelectProfileActionsCtrl = [ '$scope', '$modalInstance', 'profile', ($scope, $modalInstance, profile) ->
 
-  $scope.user = user
+  $scope.profile = profile
 
   $scope.editProfile = ->
     $modalInstance.close('edit')

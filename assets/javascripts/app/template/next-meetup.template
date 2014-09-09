@@ -86,28 +86,50 @@
 				<hr />
 				<div class="row text-left" style="padding-left: 10px">
 					<h4 class="text-uppercase text-xbold">Schedule</h4>
-					<dl class="dl-horizontal" style="margin-left: -80px">
-					  <dt>7:00-7:20</dt>
-					  <dd>Grab a brew and socialize.</dd>
-						<dt>7:20-7:30</dt>
-						<dd>Opening Remarks.</dd>
-						<dt>7:30-7:45</dt>
-						<dd><span class="text-red text-xbold">First Talk.</span></dd>
-						<dt>7:45-8:00</dt>
-						<dd>Socialize, drink brew.</dd>
-						<dt>8:00-8:15</dt>
-						<dd><span class="text-red text-xbold">Second Talk.</span></dd>
-						<dt>8:15-8:25</dt>
-						<dd>Socialize some more. More brew.</dd>
-						<dt>8:25-8:45</dt>
-						<dd><span class="text-red text-xbold">Third Talk.</span></dd>
-						<dt>8:45-8:50</dt>
-						<dd>Potty Break.</dd>
-						<dt>8:50-9:00</dt>
-						<dd>Closing Remarks, Planning.</dd>
-						<dt>9:00+</dt>
-						<dd>Drink, socialize, corner the speakers.</dd>
-					</dl>
+					<div style="font-size: 13px">
+						<div class="row">
+							<div class="col-md-4">7:00-7:20</div>
+							<div class="col-md-8">Grab a brew and socialize.</div>
+						</div>
+						<div class="row">
+							<div class="col-md-4">7:20-7:30</div>
+							<div class="col-md-8">Opening Remarks.</div>
+						</div>
+						<div class="row">
+							<div class="col-md-4">7:30-7:45</div>
+							<div class="col-md-8">
+								<span class="text-red text-xbold">First Talk</span>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-4">7:45-8:00</div>
+							<div class="col-md-8">Socialize, drink brew.</div>
+						</div>
+						<div class="row">
+							<div class="col-md-4">8:00-8:15</div>
+							<div class="col-md-8">
+								<span class="text-red text-xbold">Second Talk.</span>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-4">8:15-8:25</div>
+							<div class="col-md-8">
+								<span class="text-red text-xbold">Third Talk.</span>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-4">8:45-8:50</div>
+							<div class="col-md-8">Potty Break.</div>
+						</div>
+						<div class="row">
+							<div class="col-md-4">8:50-9:00</div>
+							<div class="col-md-8">Closing Remarks, Planning.</div>
+						</div>
+						<div class="row">
+							<div class="col-md-4">9:00+</div>
+							<div class="col-md-8">Drink, socialize, corner the speakers.</div>
+						</div>
+					</div>
 				</div>
 				<div class="row text-left" style="padding-left: 10px">
 					<h4 class="text-uppercase text-xbold">Additional Information</h4>

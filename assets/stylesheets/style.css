@@ -1772,3 +1772,7 @@ td {
 		-o-transition: all 0.2s ease-in-out;
 			transition: all 0.2s ease-in-out;
 }
+
+.tc-td {
+	padding: 4px;
+}

@@ -25,14 +25,14 @@ var cbpAnimatedHeader = (function() {
 	}
 
 	function scrollPage() {
-		console.log("Scrolling Page");
+		// console.log("Scrolling Page");
 		var sy = scrollY();
 		if ( sy >= changeHeaderOn ) {
-			console.log("Change navbar style.");
+			// console.log("Change navbar style.");
 			$('.navbar-default').addClass('navbar-scroll');
 		}
 		else {
-			console.log("Classic navbar style.");
+			// console.log("Classic navbar style.");
 			$('.navbar-default').removeClass('navbar-scroll');
 		}
 		didScroll = false;

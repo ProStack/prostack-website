@@ -1,0 +1,11 @@
+<div class="modal-body text-center" style="background-color: black; padding: 32px">
+    <h1 class="text-xbold" style="color: white">Select a Provider</h1>
+    <br />
+    <ul class="list-inline social-icon">
+      <li ng-repeat="provider in providers">
+        <a ng-click="select(provider)"><i class="" ng-class="'fa fa-' + provider"></i></a>
+        </li>
+    </ul>
+    <br />
+    <button class="btn btn-lucky btn-lucky-white btn-lg" ng-click="cancel()">Cancel</button>
+</div>

@@ -24,6 +24,16 @@
         <li><a href="#sponsors">Sponsors</a></li>
         <li><a href="#jobs">Jobs</a></li>
         <li><a href="#contact">Contact</a></li>
+        <li ng-controller="LoginCtrl">
+          <a href="#" ng-if="user" ng-click="showProfileOptions()">
+            <i ng-class="'fa fa-' + user.provider"></i>
+            <span style="margin: 0 5px">{{user.id}}</span>
+          </a>
+          <a href="#" ng-if="!user" ng-click="showLoginOptions()">
+            <i class="fa fa-user"></i>
+            <span style="margin: 0 5px">Sign In</span>
+          </a>
+        </li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->

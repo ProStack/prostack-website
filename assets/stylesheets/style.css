@@ -195,6 +195,65 @@ a:hover{
 	color: #28282d;
 }
 
+.btn.btn-lucky-white{
+	background-color: #fff;
+	border-color: #fff;
+	color: #28282d;
+}
+
+.btn.btn-lucky-white:hover,
+.btn.btn-lucky-white:focus,
+.btn.btn-lucky-white:active,
+.btn.btn-lucky-white.active{
+	background-color: #28282d;
+	border-color: #28282d;
+	color: #fff;
+}
+
+.btn.btn-lucky-green{
+	background-color: #3fb618;
+	border-color: #2fb618;
+	color: #fff;
+}
+
+.btn.btn-lucky-green:hover,
+.btn.btn-lucky-green:focus,
+.btn.btn-lucky-green:active,
+.btn.btn-lucky-green.active{
+	background-color: #fff;
+	border-color: #fff;
+	color: #28282d;
+}
+
+.btn.btn-lucky-orange{
+	background-color: #ff7518;
+	border-color: #e45c00;
+	color: #fff;
+}
+
+.btn.btn-lucky-orange:hover,
+.btn.btn-lucky-orange:focus,
+.btn.btn-lucky-orange:active,
+.btn.btn-lucky-orange.active{
+	background-color: #fff;
+	border-color: #fff;
+	color: #28282d;
+}
+
+.btn.btn-lucky-teal{
+	background-color: #5bc0de;
+	border-color: #46b8da;
+	color: #fff;
+}
+
+.btn.btn-lucky-teal:hover,
+.btn.btn-lucky-teal:focus,
+.btn.btn-lucky-teal:active,
+.btn.btn-lucky-teal.active{
+	background-color: #fff;
+	border-color: #fff;
+	color: #28282d;
+}
 
 /*
 	==================

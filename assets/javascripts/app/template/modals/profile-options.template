@@ -1,0 +1,10 @@
+<div class="modal-body text-center" style="background-color: black; padding: 32px">
+  <h1 class="text-xbold" style="color: white">{{user.displayName}}</h1>
+  <div class="row" style="background-color: white; border: 1px solid #444; margin-top: 20px; margin-bottom: 20px; text-align: left">
+    <div class="col-md-6">
+      <img src="images/rclayton.jpg" />
+    </div>
+  </div>
+  <button class="btn btn-lucky btn-lg" ng-click="logout()">Logout</button>
+  <button class="btn btn-lucky btn-lucky-white btn-lg" ng-click="cancel()">Cancel</button>
+</div>

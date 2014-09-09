@@ -43,6 +43,15 @@ exports.config =
       uibootstrap:
         path: 'javascripts/vendor/ui-bootstrap-tpls-0.11.0.min.js'
         exports: 'uibootstrap'
+      firebase:
+        path: 'javascripts/vendor/firebase.js'
+        exports: 'firebase'
+      firebasesl:
+        path: 'javascripts/vendor/firebase-simple-login.js'
+        exports: 'firebasesl'
+      angularfire:
+        path: 'javascripts/vendor/angularfire.min.js'
+        exports: 'angularfire'
       cbpAnimatedHeader:
         path: 'javascripts/vendor/cbpAnimatedHeader.js'
         exports: 'cbpAnimatedHeader'
@@ -55,8 +64,5 @@ exports.config =
     extensions: [ "template" ]
   server:
     path: 'server.coffee'
-    # views:
-    #   compileWith: 'html'
-    #   extension:   'html'
     defaultServer:
       enabled: false

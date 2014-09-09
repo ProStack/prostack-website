@@ -1,17 +1,26 @@
+# Gross jQuery and plugins that will bind to Window.
 require 'jquery'
 require 'jqnicescroll'
 require 'jqeasing'
 require 'cbpAnimatedHeader'
 require 'jqparallax'
-
+# Application dependencies
 require 'bootstrap'
 angular = require 'angular'
 require 'uirouter'
 require 'uibootstrap'
 require './app/services'
 require './app/directives'
+require './app/login'
 
-app = angular.module 'prostack', ['ui.router', 'ui.bootstrap', 'prostack.services', 'prostack.directives']
+# Instantiate the application.
+app = angular.module 'prostack', [
+  'ui.router',
+  'ui.bootstrap',
+  'prostack.services',
+  'prostack.directives',
+  'prostack.login'
+]
 
 # Mimosa compile templates will be pulled from the 'templates'
 # file and registered with Angular's template cache.
@@ -54,9 +63,20 @@ app.config [ '$stateProvider', '$urlRouterProvider',
     #   }
 ]
 
-# app.controller "HomeCtrl", [ '$scope', ($scope) ->
-#   $scope.message = "Hello from Home Controller!"
-# ]
+#  Immutable storage for configuration.  Later implementations may use an
+#  AJAX request to load options from the server.
+class ConfigService
+
+  constructor: ->
+    @config = require './config'
+  
+  getItem: (item) => @config[item]
+
+
+app.factory 'configService', -> new ConfigService()
+
+
+
 #
 # app.controller "View1Ctrl", [ '$scope', 'message', ($scope, message) ->
 #   $scope.message = message

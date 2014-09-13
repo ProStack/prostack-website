@@ -9,6 +9,9 @@
 /.node_modules
 /node_modules
 
+# Ignore Mimosa's working directory
+.mimosa/
+
 # Ignore all logfiles and tempfiles.
 *.log
 /tmp

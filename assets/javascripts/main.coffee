@@ -46,14 +46,14 @@ app.config [ '$stateProvider', '$urlRouterProvider',
         templateUrl: 'pages-home.html'
         controller: 'HomeCtrl'
       }
-      # .state 'view1', {
-      #   url: '/view1'
-      #   templateUrl: 'view1.html'
-      #   controller: 'View1Ctrl'
-      #   resolve:
-      #     message: (messageService) ->
-      #       return messageService.getMessage()
-      # }
+      .state 'topics', {
+        url: '/topics'
+        templateUrl: 'pages-topics.html'
+        controller: 'TopicsCtrl'
+        # resolve:
+        #   message: (messageService) ->
+        #     return messageService.getMessage()
+      }
       # .state 'view2', {
       #   url: '/view2'
       #   templateUrl: 'view2.html'
@@ -81,7 +81,8 @@ app.factory 'configService', -> new ConfigService()
 app.controller "HomeCtrl", [ '$scope', ($scope) ->
 
 ]
-#
-# app.controller "View2Ctrl", [ '$scope', 'message', ($scope, message) ->
-#   $scope.message = message
-# ]
+
+# Topics Controller
+app.controller "TopicsCtrl", [ '$scope', ($scope) ->
+
+]
